@@ -1,0 +1,32 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image {
+    height: 50px;
+    width: 50px;
+  
+}
+.search{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.searchInput {
+    height: 50px;
+    padding-right: 13rem;
+    padding-left: 1rem;
+    font-size: larger;
+    border-radius: 10px;
+    /* width: 100px; */
+    
+}
+.border {
+    border-radius: 100%;
+    /* background-color: white; */
+    border-style: none;
+}
